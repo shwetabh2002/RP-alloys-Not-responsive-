@@ -1,0 +1,759 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#home{
+    margin: 4% 3%;
+}
+
+.rect1{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    
+}
+.rect2{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 20px;
+    height: 3px;
+    background-color: black;
+}
+.logo{
+    position: absolute;
+text-align: center;
+width: 150px;
+height: 22px;
+left: 550px;
+top: 15px;
+font-family: 'sans-serif';
+font-style: normal;
+font-weight: bolder;
+font-size: 25px;
+line-height: 30px;
+text-transform: uppercase;
+}
+.rectangle{
+    position: relative;
+    
+
+}
+
+.bg-image{
+    background-image: url('images/background image.png');
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: inline-block;
+}
+.rectangle{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(180deg, #05283E -23.09%, rgba(9, 67, 103, 0) 107.85%);
+    mix-blend-mode: normal;
+}
+.bg-img-text{
+    position: absolute;
+    width: 600px;
+    top: 70px;
+    left: 90px;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 90px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.red-square{
+    position: absolute;
+width: 200px;
+height: 200px;
+left: 90px;
+top: 325px;
+
+background: #EC2232;
+opacity: 0.5;
+}
+.rect3{
+    position: absolute;
+width: 50px;
+height: 1px;
+left: 200px;
+top: 400px;
+
+background: #FFFFFF;
+}
+.one{
+    position: absolute;
+    width: 42px;
+    height: 35px;
+    left: 150px;
+    top: 380px;
+    
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 35px;
+    /* identical to box height, or 100% */
+    
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+}
+.mining{
+    position: absolute;
+width: 458px;
+height: 34px;
+left: 150px;
+top: 440px;
+
+font-family: 'ITC Avant Garde Gothic Std';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 25px;
+/* or 100% */
+
+
+color: #FFFFFF;
+}
+
+.rubber{
+    position: absolute;
+width: 270px;
+height: 34px;
+left: 450px;
+top: 440px;
+
+font-family: 'ITC Avant Garde Gothic Std';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 25px;
+/* or 100% */
+
+
+background: linear-gradient(89.86deg, #FFFFFF -2.09%, rgba(255, 255, 255, 0.3) 37.07%, rgba(255, 255, 255, 0) 88.12%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+
+.smart-box{
+    text-align: left;
+}
+.head-red1{
+    position: absolute;
+width: 155px;
+height: 18px;
+left: 305px;
+top: 755px;
+
+font-family: 'ITC Avant Garde Gothic Std';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+letter-spacing: -0.02em;
+
+color: #EC2232;
+
+}
+
+.heading2{
+    position: absolute;
+width: 400px;
+height: 100px;
+left: 305px;
+top: 790px;
+
+font-family: 'ITC Avant Garde Gothic Std';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 50px;
+/* or 121% */
+
+letter-spacing: -0.02em;
+
+color: #222222;
+
+
+}
+.para1{
+    position: absolute;
+width: 300px;
+height: 100px;
+left: 700px;
+top: 900px;
+
+font-family: 'ITC Avant Garde Gothic Std';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 20px;
+/* or 161% */
+
+
+color: #000000;
+}
+
+.row{
+    position: absolute;
+    top: 1100px;
+    text-align: center;
+}
+.column{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    left: 250px;
+    font-size: 40px;
+
+color: #222222;
+}
+.plus{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    left: 150px;
+    font-size: 80px;
+    color: #ea0000;
+}
+.line{
+    position: absolute;
+width: 1px;
+height: 100px;
+left: 280px;
+background: #C4C4C4;
+}
+.caption{
+    position: absolute;
+    left: 80px;
+    font-size: 20px;
+
+}
+#rectangle{
+   position: absolute;
+width: 100%;
+height: 600px;
+left: 0px;
+top: 1300px;
+
+background: #F9F9F9;
+}
+
+.wheel1{
+    position: absolute;
+    height: 600px;
+    top: 0px;
+}
+.wheel2{
+    position: absolute;
+   
+    right: 0px;
+    height: 400px;
+
+}
+.head-red2{
+    position: absolute;
+width: 155px;
+height: 18px;
+left: 305px;
+top: 100px;
+
+font-family: 'ITC Avant Garde Gothic Std';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+
+color: #EC2232;
+}
+.heading3{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    left: 305px;
+    top: 150px;
+    
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 50px;
+    /* or 121% */
+    
+    letter-spacing: -0.02em;
+    
+    color: #222222;
+}
+
+.row1{
+    position: absolute;
+    top: 180px;
+    left: 305px;
+    text-align: center;
+    
+}
+.card{
+    position: relative;
+    display: inline-block;
+    top: 200px;
+    margin-left: 25px;
+    width: 250px;
+    height: 350px;
+    font-family: 'ITC Avant Garde Gothic Std';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 30px;
+letter-spacing: -0.02em;
+background-color: #FFFFFF;
+box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.card-2{
+    position: relative;
+    display: inline-block;
+    top: 140px;
+    width: 60px;
+    height: 350px;
+    margin-left: 25px;
+
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.carousel-1{
+    width: 250px;
+    height: 280px;
+}
+.carousel-2{
+    width: 60px;
+    height: 280px;
+}
+#industry-section{
+    position: relative;
+    top: 1300px;
+    left: -80px;
+}
+.industry-background-1{
+    position: absolute;
+   color: #FFFFFF;
+   background-color: #FFFFFF;
+   -webkit-text-stroke: 1px;
+   -webkit-text-stroke-color: #000000;
+
+}
+.industry-background-2{
+    position: absolute;
+    top: 25px;
+    padding-top: 10px;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+   -webkit-text-stroke: 1px;
+   -webkit-text-stroke-color: #000000;
+}
+.industry-background-3{
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 60px;
+    padding-top: 15px;
+   -webkit-text-stroke: 1px;
+   -webkit-text-stroke-color: #000000;
+}
+.fatplus{
+    position: absolute;
+    display: inline-block;
+    top: 160px;
+    left: -20px;
+    width: 46.5px;
+    height: 45px;
+    opacity: 0.2;
+    color: #EC2232;
+    font-size: 80px;
+   
+}
+.fatplus-para{
+    position: absolute;
+    top: 220px;
+    left: 30px;
+    font-family: 'ITC Avant Garde Gothic Std';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 5px;
+color: #9198A0;
+}
+.long-line{
+    position: absolute;
+    top: 300px;
+    width: 2px;
+    height: 400px;
+    background: #EC2232;
+}
+.indus-row{
+    position: absolute;
+    display: inline-block;
+    top: 450px;
+    
+   
+    
+}
+.indus-column{
+    position: relative;
+    display: inline-block;
+    width: 450px;
+    height: 150px;
+    left: 350px;
+    font-family: 'ITC Avant Garde Gothic Std';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 5px;
+
+}
+.number{
+    color: #F0E3D8;
+}
+.icon{
+    position: absolute;
+    left: 50px;
+}
+.icon-heads{
+    position: absolute;
+    width: 300px;
+    left:    150px;
+}
+.para{
+    position: absolute;
+    display: inline-block;
+    top: 25px;
+    left: 150px;
+    width: 310px;
+    font-family: 'ITC Avant Garde Gothic Std';
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+line-height: 20px;
+color: #000000;
+}
+#img-section{
+    position: relative;
+    top: 2300px;
+}
+.image-back{
+    background: url('https://maltabusinessweekly.com/wp-content/uploads/2019/08/chester-alvarez-bphc6kyobMg-unsplash-1200x675.jpg');
+    background-size: cover;
+    height: 600px;
+    opacity: 1.0;
+    
+}
+.txt-color{
+    color: #FFFFFF;
+}
+
+.position{
+    position: absolute;
+    top: 275px;
+    left: 300px;
+    width: 450px;
+}
+.over-image-row{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+.over-image-column{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    
+}
+.icon-image{
+    width: 20%;
+    margin-bottom: 5px;
+}
+.text{
+    font-size: smaller;
+    margin-top: 5px;
+}
+.circle{
+    position: absolute;
+    top: 250px;
+    right: 100px;
+
+}
+
+#companies{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    top: 2300px;
+    text-align: center;
+}
+.alignment{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+
+
+}
+
+.over-image-row-company{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+.over-image-column-company{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    width: 200px;
+}
+.company-size{
+    width: 60%;
+}
+
+#contact{
+    position: absolute;
+    top: 4000px;
+    width: 50%;
+    left: 0;
+    height: 600px;
+    background: #0E3466;
+}
+.get-in-touch{
+    position: absolute;
+width: 400px;
+height: 30px;
+top: 100px;
+left: 100px;
+
+font-family: 'ITC Avant Garde Gothic Std';
+font-style: normal;
+font-weight: 200;
+font-size: 30px;
+line-height: 50px;
+/* or 131% */
+
+letter-spacing: -0.02em;
+}
+
+.hr-line{
+    position: absolute;
+width: 150px;
+height: 4px;
+top: 60px;
+background: white;
+
+
+}
+.group-361{
+    position: absolute;
+     top: 200px;
+     left: 100px;
+     width: 50%;
+}
+.half-white{
+    position: absolute;
+    height: 600px;
+    right: 0;
+    background: white;
+}
+.map{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 100px;
+    left: 180px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    
+}
+.address-rect{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    top: 100px;
+    left: 560px;
+    background: white;
+}
+
+.office-head{
+    position: absolute;
+width: 153px;
+height: 18px;
+top: 25px;
+left: 20px;
+font-family: 'AvertaStd-Regular';
+font-size: 15px;
+line-height: 15px;
+/* identical to box height, or 100% */
+letter-spacing: 0.03em;
+color: #192437;
+}
+
+.address{
+    position: absolute;
+width: 200px;
+height: 103px;
+left: 20px;
+top: 50px;
+font-family: 'AvertaStd-Light';
+font-size: 16px;
+line-height: 18px;
+/* or 110% */
+color: #828282;
+
+}
+
+.line-hr-grey{
+    position: absolute;
+width: 200px;
+height: 1px;
+left: 20px;
+top: 150px;
+
+background: #C4C4C4;
+}
+
+.call-us{
+    position: absolute;
+    width: 153px;
+    height: 15px;
+    top: 160px;
+    left: 20px;
+    font-family: 'AvertaStd-Regular';
+    font-size: 15px;
+    line-height: 15px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.03em;
+    color: #192437;
+}
+.phone{
+    position: absolute;
+width: 200px;
+height: 50px;
+left: 20px;
+top: 190px;
+font-family: 'AvertaStd-Light';
+font-size: 16px;
+line-height: 18px;
+/* or 110% */
+color: #828282;
+}
+.line-hr-grey1{
+    position: absolute;
+width: 200px;
+height: 1px;
+left: 20px;
+top: 220px;
+
+background: #C4C4C4;
+}
+
+.opening{
+    position: absolute;
+    width: 153px;
+    height: 15px;
+    top: 230px;
+    left: 20px;
+    font-family: 'AvertaStd-Regular';
+    font-size: 15px;
+    line-height: 15px;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.03em;
+    color: #192437;
+}
+.timing{
+    position: absolute;
+width: 200px;
+height: 50px;
+left: 20px;
+top: 260px;
+font-family: 'AvertaStd-Light';
+font-size: 16px;
+line-height: 18px;
+/* or 110% */
+color: #828282;
+}
+
+#footer{
+    position: absolute;
+    top: 4600px;
+    width: 100%;
+    height: 200px;
+    background: #000000;
+
+}
+.aboutus{
+    position: absolute;
+    width: 100px;
+    top: 50px;
+    left: 150px;
+}
+.industry-footer{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    color: white;
+}
+
+.mining-footer{
+    position: absolute;
+    width: 100px;
+    top: 80px;
+    left: 500px;
+}
+
+.sugar-footer{
+    position: absolute;
+    width: 60px;
+    top: 75px;
+    left: 700px;
+}
+.copyright{
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    color: white;
+    font-size: 13px;
+}
+.credit{
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    color: white;
+    font-size: 13px;
+}
+.twitter{
+    position: absolute;
+    top: 50px;
+    right: 160px;
+    width: 15px;
+
+}
+
+.instagram{
+    position: absolute;
+    top: 50px;
+    right: 130px;
+    width: 15px;
+}
+.linkedin{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 15px;
+}
